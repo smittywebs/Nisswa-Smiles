@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Nisswa Smiles</title>
   </head>
-  <body>
+  <body class="md:bg-slate-100">
     <!-- Navbar -->
-    <nav class="relative container p-6 md:p-1 bg-white max-w-full">
+    <nav
+      class="relative md:sticky md:top-0 container p-6 md:p-1 bg-white max-w-full"
+    >
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <div class="md:pt-4">
           <!--logo-->
           <img
-            class="h-12 md:ml-20 md:h-24"
+            class="h-12 md:ml-20 md:h-24 md:mb-1 xl:mb-5"
             src="images/images/Nisswa Smiles logo.blue print-2.jpg"
             alt=""
           />
@@ -75,63 +77,214 @@
       </div>
     </nav>
 
-    <div>
-      <img src="images/images/group1.1.jpg" alt="" />
-    </div>
+    <div
+      class="hidden md:visible md:flex md:bg-cover md:bg-fixed md:bg-no-repeat md:bg-top md:h-screen md:mt-0"
+      style="background-image: url(images/images/doc4.1.jpg)"
+    ></div>
+
+    <section>
+      <div>
+        <img class="visible md:hidden" src="images/images/doc4.jpg" alt="" />
+      </div>
 
     <section class="">
       <div class="">
         <h1 class="text-4xl text-teal-600 mt-12 mb-4 m-2 text-center">
-          High Quality Dental Care in a Relaxed Environment
+          Our Services
         </h1>
       </div>
-
-      <div class="">
+        <div class="">
         <h2 class="flex text-center text-lg lg:ml-80 lg:mr-80 m-2">
-          At Nisswa Smiles, you will have a different dental experience. Whether
-          seeking general, cosmetic, or therapeutic dentistry, our mission is to
-          provide high-quality dental care and patient education in a relaxed
-          and welcoming environment. We enjoy getting to know each patient on a
-          personal level. We treat our patients with compassion and honesty.
-          Stop in anytime for a cup of coffee and see the comfortable
-          environment with the latest in technology.
+          Nisswa Smiles provides compassionate and cutting-edge dental care for your complete wellness.
+           Whether establishing long term care or seeking a second opinion, offer a wide range of professional services,
+            including cosmetic and therapeutic treatments to meet your needs.
         </h2>
       </div>
-    </section>
 
-    <section class="feature">
-      <div
-        class="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0"
-      >
-        <img src="images/images/happy.jpg" alt="" />
-        <div
-          class="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20"
-        >
-          <h2
-            class="max-w-lg mt-10 mb-6 font-sans text-3xl text-center text-teal-600 uppercase md:text-5xl md:mt-0 md:text-left"
-          >
-            Are you a new patient?
+        <div class="">
+          <h2 class="text-4xl text-teal-600 mt-12 mb-8 m-2 text-center">
+            Preventative Care
           </h2>
-          <p class="max-w-md text-center md:text-left">
-            Whether you're establishing preventative care, having a dental
-            emergency, seeking a second opinion or looking for cosmetic
-            treatments, we're eager to welcome new patients now! Get the
-            information you need for your first scheduled visit, and let us
-            welcome you to our practice. Call us with any questions and to
-            schedule your first visit.
-          </p>
-          <div
-            class="flex flex-col sm:items-center sm:justify-center md:items-start"
-          >
-            <button
-              class="bg-teal-600 hover:bg-black text-white font-bold py-2 px-6 border border-black rounded mt-5"
-            >
-              <a href="patientInfo.html">Learn More</a>
-            </button>
+        </div>
+
+        <div>
+          <div class="flex flex-col items-center md:flex-row md:justify-center">
+            <div class="px-2 mb-10">
+              <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+                <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
+                  Teeth Cleaning
+                </h2>
+                <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                  Getting your teeth regularly cleaned is more than just a cleaning.
+                   We also check for early signs of decay and oral cancer, which is an essential part of good oral and preventative care.
+                </p>
+              </div>
+            </div>
+            <div class="px-2 mb-10">
+              <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+                <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                  One Visit Crowns and Bridges
+                </h2>
+                <p class="text-black text-center md:px-2 md:h-36">
+                  Avoid multiple trips to the dentist. With our CEREC technology, 
+                  we can custom make your crowns and bridges the same day.
+                </p>
+              </div>
+            </div>
+            <div class="px-2 mb-10">
+              <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+                <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                  Veneers
+                </h2>
+                <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                  Thinking about veneers? Veneers can be used for a wide range of issues including chipped or worn teeth.
+                   Give us a call and we'll find the right fit for you.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+        <div>
+          <div class="flex flex-col items-center md:flex-row md:justify-center">
+            <div class="px-2 mb-10">
+              <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+                <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
+                  Implants
+                </h2>
+                <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                  Implants are a great long term option for those with missing teeth.
+                   Restore your smile with dental implants.
+                </p>
+              </div>
+            </div>
+            <div class="px-2 mb-10">
+              <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+                <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                  Sleep Apnea
+                </h2>
+                <p class="text-black text-center md:px-2 md:h-36">
+                  For those experiencing obstructive Sleep Apnea, let us make a sleep appliance for you to ensure a great nights rest.
+                </p>
+              </div>
+            </div>
+            <div class="px-2 mb-10">
+              <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+                <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                  Denture and Denture repair
+                </h2>
+                <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                  We provide complete and partial dentures as well as denture repair services for those who need them. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h2 class="text-4xl text-teal-600 mt-12 mb-8 m-2 text-center">
+            Therapeutic
+          </h2>
+        </div>
+        <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <div class="px-2 mb-10">
+            <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+              <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
+                Therapeutic Botox
+              </h2>
+              <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                Resolve headaches and reduce chronic pain from TMJ related issues with Botox.
+              </p>
+            </div>
+          </div>
+          <div class="px-2 mb-10">
+            <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+              <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                Mouthguards and Nightguards
+              </h2>
+              <p class="text-black text-center md:px-2 md:h-36">
+                Stop teeth grinding and reduce jaw pain with a nightguard.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h2 class="text-4xl text-teal-600 mt-12 mb-8 m-2 text-center">
+            Cosmetic
+          </h2>
+        </div>
+        <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <div class="px-2 mb-10">
+            <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+              <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
+                Teeth Whitening
+              </h2>
+              <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                Looking to brighten your smile? Whiten your teeth safely with our help.
+              </p>
+            </div>
+          </div>
+          <div class="px-2 mb-10">
+            <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+              <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                Invisalign and Reveal
+              </h2>
+              <p class="text-black text-center md:px-2 md:h-36">
+                Correct mild orthodontic issues with Invisalign and Reveal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <div class="px-2 mb-10">
+            <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+              <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
+                Cosmetic Botox
+              </h2>
+              <p class="text-black text-center md:px-2 md:pb-5 md:h-36">
+                If you're looking to remove years in a matter of minutes or to touch up a few key areas,
+                 our cosmetic Botox can help you achieve your goals. 
+              </p>
+            </div>
+          </div>
+          <div class="px-2 mb-10">
+            <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
+              <h2 class="text-2xl text-teal-600 text-center mb-2 md:pt-5">
+                Veneers
+              </h2>
+              <p class="text-black text-center md:px-2 md:h-36">
+                Thinking about veneers? Veneers can be used for a wide range of issues including chipped or worn teeth.
+                 Give us a call and we'll find the right fit for you.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section>
+      <div 
+      class="flex bg-cover md:flex md:bg-cover md:bg-fixed md:bg-no-repeat md:bg-top md:h-96 md:mt-0"
+      style="background-image: url(images/images/group2.jpg);">
       </div>
     </section>
+    <div class="md:mt-2">
+      <h1 class="text-4xl text-teal-600 mt-2 mb-4 m-2 text-center">
+        Interested in our services? We're here to help!
+      </h1>
+    </div>
+      <div class="px-2 md:mb-2">
+      <h2 class="text-center text-lg mb-2 md:text-center">
+        We want to know your needs so that we can provide the perfect solution.
+        Let us know what you want and we'll do our best to help. 
+      </h2>
+    </div>
+
+    <section>
+      <div class="">
+        <footer class="flex sticky bottom-0 bg-teal-600 max-w-full h-48">
+
+        </footer>
+      </div>
+    </section>
+
 
     <script src="js/script.js"></script>
   </body>
