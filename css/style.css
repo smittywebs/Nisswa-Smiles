@@ -696,6 +696,10 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -704,16 +708,16 @@ video {
   height: 3.5rem;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .h-48 {
   height: 12rem;
 }
 
 .h-96 {
   height: 24rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-px {
@@ -746,6 +750,10 @@ video {
 
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .flex-col {
@@ -1070,12 +1078,24 @@ video {
     margin-bottom: 5rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:mb-1 {
     margin-bottom: 0.25rem;
   }
 
-  .md\:mb-48 {
-    margin-bottom: 12rem;
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:ml-12 {
+    margin-left: 3rem;
   }
 
   .md\:ml-2 {
@@ -1086,28 +1106,24 @@ video {
     margin-left: 5rem;
   }
 
-  .md\:ml-80 {
-    margin-left: 20rem;
+  .md\:mr-12 {
+    margin-right: 3rem;
   }
 
   .md\:mr-2 {
     margin-right: 0.5rem;
   }
 
-  .md\:mr-80 {
-    margin-right: 20rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
+  .md\:mt-0\.5 {
+    margin-top: 0.125rem;
   }
 
-  .md\:mt-12 {
-    margin-top: 3rem;
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:mt-2 {
@@ -1122,32 +1138,8 @@ video {
     margin-top: 1.5rem;
   }
 
-  .md\:mb-36 {
-    margin-bottom: 9rem;
-  }
-
-  .md\:mb-40 {
-    margin-bottom: 10rem;
-  }
-
-  .md\:mb-44 {
-    margin-bottom: 11rem;
-  }
-
-  .md\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .md\:mb-24 {
-    margin-bottom: 6rem;
-  }
-
-  .md\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .md\:mb-2 {
-    margin-bottom: 0.5rem;
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
@@ -1158,8 +1150,8 @@ video {
     display: none;
   }
 
-  .md\:h-24 {
-    height: 6rem;
+  .md\:h-16 {
+    height: 4rem;
   }
 
   .md\:h-36 {
@@ -1180,6 +1172,10 @@ video {
 
   .md\:w-96 {
     width: 24rem;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:max-w-4xl {
@@ -1230,6 +1226,10 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
+  .md\:bg-contain {
+    background-size: contain;
+  }
+
   .md\:bg-cover {
     background-size: cover;
   }
@@ -1238,8 +1238,8 @@ video {
     background-attachment: fixed;
   }
 
-  .md\:bg-center {
-    background-position: center;
+  .md\:bg-bottom {
+    background-position: bottom;
   }
 
   .md\:bg-top {
@@ -1335,8 +1335,16 @@ video {
 }
 
 @media (min-width: 976px) {
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .lg\:ml-80 {
     margin-left: 20rem;
+  }
+
+  .lg\:mr-10 {
+    margin-right: 2.5rem;
   }
 
   .lg\:mr-80 {
