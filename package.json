@@ -6,10 +6,11 @@
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/style.css",
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
-    },
+  },
   "author": "Jeffrey Smith",
   "license": "",
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
     "tailwindcss": "^3.0.24"
   }
 }
