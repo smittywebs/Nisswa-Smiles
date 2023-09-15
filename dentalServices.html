@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Nisswa Smiles</title>
   </head>
-  <body class="md:bg-slate-100">
+  <body>
    <!-- Navbar -->
    <nav class="relative container p-6 md:p-1 bg-white max-w-full">
     <!-- Flex container -->
@@ -78,15 +78,18 @@
     </div>
   </nav>
 
+  <header>
+    <!--Desktop Image-->
     <div
       class="hidden md:visible md:flex md:bg-cover md:bg-fixed md:bg-no-repeat md:bg-top md:mt-0 h-[690px]"
-      style="background-image: url(images/images/doc4.1.jpg)"
+      style="background-image: url(images/images/cerec.jpg)"
     ></div>
-
+      <!--Mobile Image-->
     <section>
       <div>
-        <img class="visible md:hidden" src="images/images/doc4.jpg" alt="" />
+        <img class="visible md:hidden" src="images/images/cerec.jpg" alt="" />
       </div>
+  </header>
 
     <section class="">
       <div class="">
@@ -109,7 +112,7 @@
         </div>
 
         <div>
-          <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <div class="flex flex-col items-center lg:flex-row lg:justify-center">
             <div class="px-2 mb-10">
               <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
                 <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
@@ -146,7 +149,7 @@
           </div>
         </div>
         <div>
-          <div class="flex flex-col items-center md:flex-row md:justify-center">
+          <div class="flex flex-col items-center lg:flex-row lg:justify-center">
             <div class="px-2 mb-10">
               <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
                 <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
@@ -185,7 +188,7 @@
             Therapeutic
           </h2>
         </div>
-        <div class="flex flex-col items-center md:flex-row md:justify-center">
+        <div class="flex flex-col items-center lg:flex-row lg:justify-center">
           <div class="px-2 mb-10">
             <div class=" md:shadow-lg md:shadow-black max-w-md md:bg-white">
               <h2 class="text-2xl text-teal-600 text-center mb-2 pt-5">
@@ -258,10 +261,11 @@
             </div>
           </div>
         </div>
-    </section>
+        </section>
+    
 
-    <section>
-      <div class="md:mt-2">
+    <section class="">
+      <div class="">
         <h1 class="text-4xl text-teal-600 mt-2 mb-2 m-2 text-center">
           Interested in our services? We're here to help!
         </h1>
@@ -273,10 +277,11 @@
         </h2>
       </div>
       <div 
-      class="flex bg-cover md:flex md:bg-fixed md:bg-no-repeat md:bg-contain md:bg-bottom md:h-96 md:mt-0"
-      style="background-image: url(images/images/happy.to.be.here.png); height: 480px;">
-      <img class="md:hidden h-full w-full" src="images/images/hyg1.jpg" alt="">
+      class=" hidden lg:visible bg-teal-600 md:bg-cover mt-10 md:bg-center lg:flex lg:bg-fixed lg:bg-no-repeat lg:bg-contain lg:bg-top lg:mt-0 lg:mb-0"
+      style="background-image: url(images/images/happy.to.be.here.png); height: 690px;">
       </div>
+      <!--Mobile Image-->
+      <img class="md:hidden h-full w-full" src="images/images/hyg1.jpg" alt="">
     </section>
 
    <!-- Foooter -->
