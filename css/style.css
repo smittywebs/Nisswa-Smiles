@@ -829,6 +829,10 @@ video {
   flex-direction: column;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1508,6 +1512,10 @@ video {
 
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .lg\:flex {
